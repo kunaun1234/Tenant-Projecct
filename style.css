@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+
+body {
+    font-family: 'Anton', sans-serif;
+
+    background-color: #fff;
+
+
+}
+
+header {
+
+    background-color: #ffff;
+    height: 8vh;
+    color: #FFCD07;
+    
+
+}
+
+a.navbar-brand {
+    margin-top: 15px;
+    margin-left: 50px;
+    display: inline-block;
+    font-size: 40px;
+}
+
+main {
+    background-color: green;
+}
+
+.login {
+    height: 40vh;
+    background-color: #FFCD07;
+}
+
+#brandlogin {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 200px;
+    color:#fff;
+    display: inline-block;
+    
+}
+
+.card {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 30px;
+    margin-left: 70px;
+    height: 35vh;
+}
+
+.card #signin {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.card #form {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.card  #btn-signup {
+  
+    background-color: #FFCD07;
+    
+    display:inline-block;
+    justify-content: center;
+    width: 96%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.card #txt-or {
+    display: inline-block;
+    text-align: center;
+}
+
+.card #btn-brand {
+    background-color: transparent;
+    border: #FFCD07 1px solid;
+    display:inline-block;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+
+
+
+#id-how{
+    font-family: 'Barlow Condensed', sans-serif;
+    
+    font-weight: 900;
+    margin-top: 30px;
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+div.content h1 {
+    font-size: 30px;
+}
+
+
+div.content #txt-content{
+    background: #FFCD07;
+
+}
+
+
+
+footer {
+    background-color: #fff;
+}
