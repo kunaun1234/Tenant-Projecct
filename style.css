@@ -96,15 +96,15 @@ main {
 }
 
 
-
+/* ======================================= How It's Work StaRt ============================*/
 
 #id-how{
     font-family: 'Barlow Condensed', sans-serif;
     
     font-weight: 900;
     margin-top: 30px;
-    height: 300px;
-    background-color: antiquewhite;
+    height: max-content;
+    background-color: #FFFDF3;
 }
 
 div.content h1 {
@@ -117,19 +117,71 @@ div.content #txt-content{
 
 }
 
-
-
-i.fa {
-    display: inline-block;
-    border-radius: 60px;
-    box-shadow: 0 0 2px #888;
-    padding: 0.5em 0.6em;
-    background-color: #FFCD07;
-  
-  }
-
-
-
-footer {
-    background-color: #fff;
+#txt-how-title {
+    font-weight: 900;
+    font-size: 25px;
 }
+
+#txt-how-content {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+ion-icon  {
+    display: inline-block;
+    border-radius: 70px;
+    padding: 0.5em 0.5em;
+    background-color: #FFCD07;
+    box-shadow: none;
+    font-size: 30px;
+  
+}
+
+/* ======================================= How It's Work StaRt End ============================*/
+
+
+#content-brand-icon {
+    font-size: 50px;
+    
+    
+
+}
+
+#content-brand-icon a {
+    text-decoration: none;
+}
+
+#content-brand-icon a i {
+    color: black;
+}
+
+.footer .container-fluid {
+    margin-top: 15px;
+    background-color: #FFFDF3;
+}
+
+
+.footer .container-fluid .container {
+    padding: 3rem;
+}
+
+#footer-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    
+    font-size: 30px;
+    font-weight: bolder;
+    color:#FFCD07;
+    
+}
+
+
+#content-cat {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
