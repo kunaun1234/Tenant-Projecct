@@ -31,7 +31,7 @@ main {
 }
 
 .login {
-    height: 40vh;
+    height: max-content;
     background-color: #FFCD07;
 }
 
@@ -42,13 +42,15 @@ main {
     color:#fff;
     display: inline-block;
     
+    
 }
 
 .card {
     font-family: 'Barlow Condensed', sans-serif;
     margin-top: 30px;
     margin-left: 70px;
-    height: 35vh;
+    height: max-content;
+
 }
 
 .card #signin {
@@ -87,9 +89,9 @@ main {
 .card #btn-brand {
     background-color: transparent;
     border: #FFCD07 1px solid;
-    display:inline-block;
     justify-content: center;
     width: 100%;
+    margin-bottom: 10px;
    
 }
 
@@ -114,6 +116,17 @@ div.content #txt-content{
     background: #FFCD07;
 
 }
+
+
+
+i.fa {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    background-color: #FFCD07;
+  
+  }
 
 
 
