@@ -21,9 +21,27 @@
 </head>
 
 <body>
-  <header>
-    <h1>test</h1>
+  
+    <header>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-3"><a class="navbar-brand" href="index.html">TENANT</a></div>
+              <div class="col-6">
+                <div class="input-group rounded">   
+                  <input type="search" class="mainLoginInput form-control" placeholder="&#61442; " aria-label="Search" aria-describedby="search-addon"  id="searchbar"/>
+                  </div>
+                </div>
+              <div class="col-3">
+                <select class="form-select for" aria-label="Default select example" id="select">
+                  <option selected>Chiang Mai</option>
+                  <option value="1">Chiang Mai</option>
+                  <option value="2">Chiang Mai</option>
+                  <option value="3">Chiang Mai</option>
+                </select>
+          </div>
+      </div>
   </header>
+  
   <main>
     <div class="container">
         <div class="row">
@@ -49,7 +67,7 @@
                     
                     <div class="col-3">
                         <a target="_blank" href="dist/img/product1/2.jpg">
-                            <img src="dist/img/product1/2.jpg" alt="Forest" style="width:100%;max-width:300px">
+                            <img src="dist/img/product1/2.jpg" alt="Forest" style="width:100%;max-width:300px" id="myImg">
                         </a>
                     </div>
                     <div class="col-3">
@@ -74,11 +92,13 @@
                     <hr class="mt-4" style="color:#ffcd07; ">
 
                     <div class="row mt-3" >
-                      <div class="col-3"><hr></div>
+                      <div class="col-3"></div>
                       <div class="col-5">
-                        <hr>
+                        
                         <div class="row">
-                          <div class="col-6"><hr></div>
+                          <div class="col-6">
+                            <img class="img-fluid rounded-circle" src="dist/img/product1/2.jpg" alt="Chania" width="460" height="345"> 
+                          </div>
                           <div class="col-6">
                             <p>Owner By</p>
                             <p style="font-weight: bold;">Naritsara</p>
@@ -87,9 +107,22 @@
                           </div>
                         </div>  
                       </div>
-                      <div class="col"><hr></div>
-                    </div>
+                      <div class="col">
+                      </div>
 
+                    </div>
+                    <div class="row">
+                      <div class="col-4"></div>
+                      <div class="col text-center mb-2">
+                        <button type="#" class="btn" id="btn-signup" style="font-size: 20px; font-weight: bold;">
+                          Chat
+                        </button>
+                      </div>
+                      <div class="col-4"></div>
+
+                    </div>
+                    
+                    
                     <hr>
                     <div class="container" style="background-color:#FFFAE7 ;">
                       <p style="font-weight: bolder; font-size: 25px;">Description</p>
@@ -105,7 +138,7 @@
 
 
             <!-- Right -->
-            <div class="col-8">
+            <div class="col-8 mt-5">
             <h1 style="font-size: 50px; font-weight: bold;"> Go Pro 9</h1>
             <div class="row p-3">
                 <div class="col-3">
@@ -194,13 +227,13 @@
                     <div class="col"></div>
                 </div>
                 <div class="row mt-5">
-                  <div class="col-2"><hr></div>
+                  <div class="col-2"></div>
                   <div class="col-3">
-                    <button type="submit" class="btn" id="btn-deal">
+                    <button type="submit" class="btn" id="btn-deal" style="font-weight: bold;">
                       Make a Deal
                     </button>
                   </div>
-                  <div class="col"><hr></div>
+                  <div class="col"></div>
                 </div>
             </div>
             </div>
