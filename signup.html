@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Tenant Home</title>
+    <title>Tenent</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -17,11 +17,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   </head>
 
@@ -37,15 +36,14 @@
             <div class="col-6" id="brandlogin">TENANT</div>
             <div class="col-6 mb-2" >
               <div class="card">
-                <h1 id="signin">Sign in</h1>
-                <h5 style="margin-left: 25px; margin-bottom: -10px">Or if you don't have one yet? <a href="">Sign up</a></h5>
-                <form style="margin-left: 10px; margin-right: 10px">
+                <h1 class="" id="signin">Sign Up</h1>
+                <form>
                   <div class="form-group mt-1" id="form">
                     <input
-                      type="email"
+                      type="text"
                       class="form-control"
                       aria-describedby="emailHelp"
-                      placeholder="Email Address" required
+                      placeholder="Phone Number / Username / Email" required
                     />
                   </div>
                   <div class="form-group mt-1" id="form">
@@ -56,8 +54,16 @@
                     />
                   </div>
 
+                  <div class="form-group mt-1" id="form">
+                    <input
+                      type="password"
+                      class="form-control"
+                      placeholder="Confirm Password" required
+                    />
+                  </div>
+
                   <button type="submit" class="btn" id="btn-signup">
-                    Sign in
+                    Sign Up
                   </button>
                 </form>
                 <div class="container mt-2">
@@ -87,8 +93,8 @@
                 <div class="col-2">
                     <h1 class="mt-2 text-center" >How It's Work?</h1>
                     <div class="row" id="ownerrenter">
-                        <a class="col-6 text-center" href="index.html" id="txt-content" style="color: black"><b>Owner</b></a>
-                        <a class="col-6 text-center" href="index-renter.html" id="txt-content" style="text-decoration: none; color: black"><b>Renter</b></a>
+                        <a class="col-6 text-center" href="#" id="txt-content" style="color: black"><b>Owner</b></a>
+                        <a class="col-6 text-center" href="#" id="txt-content" style="text-decoration: none; color: black"><b>Renter</b></a>
                     </div>                  
                 </div>
                 <div class="col-10"></div>
@@ -100,19 +106,19 @@
                       <p id="txt-how-content">Sign up and getting verified on TENANT.</p>
                     </div>
                     <div class="col-3 text-center">
-                      <ion-icon name="arrow-redo-outline"></ion-icon>
-                      <p id="txt-how-title">Make a Deal</p>
-                      <p id="txt-how-content">Find an item, select the rental date, and delivery location or pick up item yourself.</p>
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+                      <p id="txt-how-title">List Your Items</p>
+                      <p id="txt-how-content">Take a pic, set a price and refundable deposit, and write a short description.</p>
+                    </div>
+                    <div class="col-3 text-center">
+                      <ion-icon name="hand-left-outline"></ion-icon>
+                      <p id="txt-how-title">Accept Deal</p>
+                      <p id="txt-how-content">Accept rental deal on rent and return schedule from renter.</p>
                     </div>
                     <div class="col-3 text-center">
                       <ion-icon name="cash-outline"></ion-icon>
-                      <p id="txt-how-title">Pay</p>
-                      <p id="txt-how-content">Payment via debit or credit card will be handled automatically after the owner accepts the deal.</p>
-                    </div>
-                    <div class="col-3 text-center">
-                      <ion-icon name="calendar-outline"></ion-icon>
-                      <p id="txt-how-title">Collect Item</p>
-                      <p id="txt-how-content">Meet with the owner to collect and return the items on the selected day and time.</p>
+                      <p id="txt-how-title">Get Paid</p>
+                      <p id="txt-how-content">The payment will be in the owner's bank account right after the rental process ends.</p>
 
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Tenant - Home</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -26,7 +26,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="container">
       <a class="navbar-brand" href="index.html">TENANT</a>
     </header>
 
@@ -37,14 +37,15 @@
             <div class="col-6" id="brandlogin">TENANT</div>
             <div class="col-6 mb-2" >
               <div class="card">
-                <h1 class="" id="signin">Sign in</h1>
-                <form>
+                <h1 id="signin">Sign in</h1>
+                <h5 style="margin-left: 25px; margin-bottom: -10px">Or if you don't have one yet? <a href="">Sign up</a></h5>
+                <form style="margin-left: 10px; margin-right: 10px">
                   <div class="form-group mt-1" id="form">
                     <input
-                      type="text"
+                      type="email"
                       class="form-control"
                       aria-describedby="emailHelp"
-                      placeholder="Phone Number / Username / Email" required
+                      placeholder="Email Address" required
                     />
                   </div>
                   <div class="form-group mt-1" id="form">
@@ -86,8 +87,8 @@
                 <div class="col-2">
                     <h1 class="mt-2 text-center" >How It's Work?</h1>
                     <div class="row" id="ownerrenter">
-                        <div class="col-6 text-center" id="txt-content">Owner</div>
-                        <div class="col-6 text-center" id="txt-content">Renter</div>
+                        <a class="col-6 text-center" href="index.html" id="txt-content" style="text-decoration: none; color: black"><b>Owner</b></a>
+                        <a class="col-6 text-center" href="index-renter.html" id="txt-content" style="color: black"><b>Renter</b></a>
                     </div>                  
                 </div>
                 <div class="col-10"></div>
@@ -95,22 +96,22 @@
                 <div class="row text-center mt-4" id="txt-how">
                     <div class="col-3">
                       <ion-icon class="fa text-center" name="person-add-outline"></ion-icon>
-                      <p id="txt-how-title">Sign Up</p>
+                      <p id="txt-how-title">Renter</p>
                       <p id="txt-how-content">Sign up and getting verified on TENANT.</p>
                     </div>
                     <div class="col-3 text-center">
                       <ion-icon name="arrow-redo-outline"></ion-icon>
-                      <p id="txt-how-title">Make a Deal</p>
+                      <p id="txt-how-title">Renter</p>
                       <p id="txt-how-content">Find an item, select the rental date, and delivery location or pick up item yourself.</p>
                     </div>
                     <div class="col-3 text-center">
                       <ion-icon name="cash-outline"></ion-icon>
-                      <p id="txt-how-title">Pay</p>
+                      <p id="txt-how-title">Renter</p>
                       <p id="txt-how-content">Payment via debit or credit card will be handled automatically after the owner accepts the deal.</p>
                     </div>
                     <div class="col-3 text-center">
                       <ion-icon name="calendar-outline"></ion-icon>
-                      <p id="txt-how-title">Collect Item</p>
+                      <p id="txt-how-title">Renter</p>
                       <p id="txt-how-content">Meet with the owner to collect and return the items on the selected day and time.</p>
 
                     </div>
