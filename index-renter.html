@@ -38,7 +38,7 @@
             <div class="col-6 mb-2" >
               <div class="card">
                 <h1 id="signin">Sign in</h1>
-                <h5 style="margin-left: 25px; margin-bottom: -10px">Or if you don't have one yet? <a href="">Sign up</a></h5>
+                <h5 style="margin-left: 25px; margin-bottom: -10px">Or if you don't have one yet? <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="">Sign up</a></h5>
                 <form style="margin-left: 10px; margin-right: 10px">
                   <div class="form-group mt-1" id="form">
                     <input
@@ -83,6 +83,7 @@
 
     <div class="content">
         <div class="container" >
+          <!-- Button trigger modal -->
             <div class="row"id="id-how" >
                 <div class="col-2">
                     <h1 class="mt-2 text-center" >How It's Work?</h1>
@@ -96,22 +97,22 @@
                 <div class="row text-center mt-4" id="txt-how">
                     <div class="col-3">
                       <ion-icon class="fa text-center" name="person-add-outline"></ion-icon>
-                      <p id="txt-how-title">Renter</p>
-                      <p id="txt-how-content">Sign up and getting verified on TENANT.</p>
+                      <p id="txt-how-title">Sign Up</p>
+                      <p id="txt-how-content">Sign up and  getting verified on TENANT.</p>
                     </div>
                     <div class="col-3 text-center">
                       <ion-icon name="arrow-redo-outline"></ion-icon>
-                      <p id="txt-how-title">Renter</p>
+                      <p id="txt-how-title">Make a Deal</p>
                       <p id="txt-how-content">Find an item, select the rental date, and delivery location or pick up item yourself.</p>
                     </div>
                     <div class="col-3 text-center">
                       <ion-icon name="cash-outline"></ion-icon>
-                      <p id="txt-how-title">Renter</p>
+                      <p id="txt-how-title">Pay</p>
                       <p id="txt-how-content">Payment via debit or credit card will be handled automatically after the owner accepts the deal.</p>
                     </div>
                     <div class="col-3 text-center">
                       <ion-icon name="calendar-outline"></ion-icon>
-                      <p id="txt-how-title">Renter</p>
+                      <p id="txt-how-title">Collect Item</p>
                       <p id="txt-how-content">Meet with the owner to collect and return the items on the selected day and time.</p>
 
                     </div>
@@ -173,17 +174,6 @@
       </div>
     </div>
     </div>
-
-
-
-
-
-
-
-
-
-    
-
     <!-- Bootstrap JavaScript Libraries -->
 
     <script
@@ -198,4 +188,35 @@
       crossorigin="anonymous"
     ></script>
   </body>
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="card" style="margin-left: -10px; margin-right: -10px; margin-top: -10px">
+          <form>
+            <div class="form-group mt-1" id="form">
+              <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Phone Number / Username / Email" required/>
+            </div>
+            <div class="form-group mt-1" id="form">
+              <input type="password" class="form-control" placeholder="Password" required/>
+            </div>
+
+            <div class="form-group mt-1" id="form" style="margin-bottom: 10px">
+              <input type="password" class="form-control" placeholder="Confirm Password" required/>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-warning" id="btn-signup">Sign up</button>
+      </div>
+    </div>
+  </div>
+</div>
 </html>
